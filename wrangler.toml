@@ -1,0 +1,7 @@
+name = "config-share"
+main = "src/index.ts"
+compatibility_date = "2023-04-07"
+
+kv_namespaces = [
+    { binding = "ENV_DATA", id = "70f3f3f78970490ea7134a6535ae4859" }
+]

@@ -9,6 +9,7 @@ declare global {
 
 		interface Platform {
 			env: {
+				ENV_DATA: KVNamespace;
 				COUNTER: DurableObjectNamespace;
 			};
 			context: {
